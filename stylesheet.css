@@ -1,0 +1,137 @@
+* {
+    background-color: #ededed;
+    font-family: roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 15px 15px 0 15px;
+}
+nav {
+    background-color: rgb(87, 222, 135);
+    padding: 5px 0 5px 10px;
+    height: 50px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #093156;
+    background-color: rgb(87, 222, 135);
+    padding: 0px 5px 0px 5px;
+    margin-bottom: 0;
+    font-size: large;
+    font-weight: bold;
+}
+nav img {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(87, 222, 135);
+}
+
+#titel {
+    background-image: url("assets/banner.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    color: white;
+    font-weight: 400;
+    height: 250px;
+    margin-top: 10px;
+    text-align: right;
+    padding-top: 150px;
+    padding-right: 30px;
+}
+
+.subtitel {
+    border-bottom: solid 2px #343740;
+    padding-bottom: 10px;
+    color: #343740;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.artikel {
+    width: 250px;
+    float: left;
+    margin-left: 30px;
+}
+
+.artikel .datum, .artikel .naam {
+    font-size: smaller;
+    margin: 0;
+}
+
+.artikel .datum {
+    float: left;
+}
+
+.artikel .naam {
+    float:right;
+}
+
+.artikel img {
+    width: 100%;
+    height: 100px;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.artikel h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.artikel p {
+    margin-top: 1px;
+    display: inline-block;
+    font-size: smaller;
+}
+
+.artikel img, .artikel h3, .artikel p {
+    clear: both;
+}
+
+.subtitel {
+    clear: both;
+}
+
+#more {
+    width: 130px;
+    height: 30px;
+    clear: both;
+    background-color: #343740;
+    padding: 0 60px 0 40px;
+    margin-left: 45%;
+    margin-right: 35%;
+}
+
+#more a {
+    color: white;
+    text-decoration: none;
+    background-color: #343740;
+    font-size: large;
+
+}
+
+.feature {
+    width: 250px;
+    float: left;
+    margin-left: 30px;
+}
+
+.feature img {
+    width: 100%;
+
+}
+
+footer h4 {
+    background-color: #343740;
+    color: white;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    clear: both;
+}
